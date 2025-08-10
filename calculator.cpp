@@ -2,6 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define all(x) x.begin(), x.end()
+
 typedef vector<int> vi;
 typedef vector<vi> vii;
 
@@ -9,6 +10,12 @@ int add(int x, int y)
 {
     return x + y;
 }
+
+int sub(int x, int y)
+{
+    return x - y;
+}
+
 
 // subs and mul --> RT
 
